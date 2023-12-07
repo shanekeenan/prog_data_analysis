@@ -29,6 +29,15 @@ all files assoicated with this project are contained with the data folder under 
 
 ## running the code 
 
+Note all data is linked using relative paths to the data folder in the repository. 
+``current_directory = os.getcwd()`` gets the current directory the jupyter notebook is saved and 
+``relative_path = "data\\project2\\41586_2008_BFnature06949_MOESM31_ESM.xls"`` defines the relative path from the notebook to the data file. which is then added to the current directory 
+``file_path = os.path.join(current_directory, relative_path)``
+
+Therefore if the repository is cloned locally there should be no need to change file names to run the notebook.
+
+
+
 steps
 1. Install Anaconda 
 2. Install visual studio code 
