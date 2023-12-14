@@ -16,12 +16,12 @@ This repository contains two jupyter notebooks for assessment -
 
 contains code for the first project - Simulating average national house prices in Ireland 
 files associated with this work are contained in the data folder namely 
-- 
+``"data\\project1\\"``
+
 
 2. project2.jpynb - 
 
-
-contains code for the second project - An analysis of paleo-present climate data. Description the project tasks are detailed in the "Project 2 - PfDA.pdf" file in the data folder. 
+contains code for the second project in this module - An analysis of paleo-present climate data. Description the project tasks are detailed in the "Project 2 - PfDA.pdf" file in the data folder. 
 
 all files assoicated with this project are contained with the data folder under project2. 
 
@@ -29,7 +29,7 @@ all files assoicated with this project are contained with the data folder under 
 
 ## running the code 
 
-Note all data is linked using relative paths to the data folder in the repository. 
+Note all data (in both projects) is linked using relative paths to the data folder in the repository. E.g. 
 ``current_directory = os.getcwd()`` gets the current directory the jupyter notebook is saved and 
 ``relative_path = "data\\project2\\41586_2008_BFnature06949_MOESM31_ESM.xls"`` defines the relative path from the notebook to the data file. which is then added to the current directory 
 ``file_path = os.path.join(current_directory, relative_path)``
@@ -58,12 +58,6 @@ steps
 
 
 
-
-
-
-```bash
-import numpy as np 
-```
 
 
 ***
